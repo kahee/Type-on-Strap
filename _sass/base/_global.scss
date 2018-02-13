@@ -64,11 +64,9 @@ h4 {
 }
 
 blockquote {
-    border-left: 2px solid darken($blockquote-color, 20%);
-    margin: 1em 1em;
-    padding: 0.75em 1em;
-    background-color: $blockquote-color;
-    box-shadow: 0 2px 2px $border-color;
+  border-left: 4px solid #7a7a7a;
+  margin: 1em 1em;
+  padding: 0.75em 1em;
 }
 
 blockquote p:last-child,
@@ -186,4 +184,18 @@ img[align=right] {
     code {
         font-size: 0.75em;
     }
+}
+
+code.highlighter-rouge {
+  padding: .25em .5em;
+  font-size: 85%;
+  color: #bf616a;
+  background-color: #FFEA85;
+  border-radius: 3px;
+}
+div.highlight {
+    margin-bottom: 10px;
+    padding: 1rem 2rem;
+    border-radius: 3px;
+    border: 1px solid #999988;
 }

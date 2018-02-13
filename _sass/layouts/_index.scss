@@ -10,12 +10,13 @@
     color: $header-desc-text-color;
     background-repeat: no-repeat;
     background-size: $feature-image-size;
+    padding: 10% 20%;
 
     /* --- Responsive --- */
     @media screen and (max-width: 850px) {
         background-size: 100% auto;
-    } 
-    
+    }
+
     //For white images
     p,
     a,
